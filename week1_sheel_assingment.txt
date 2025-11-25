@@ -1,0 +1,24 @@
+Addition of 2 num by getting user ip
+
+#!/bin/bash
+echo "Enter num1: "
+read num1 
+echo "Enter num2: "
+read num2
+echo "Addition of 2 numbers is $((num1 + num2))"
+
+
+print the num in loop 
+
+#!/bin/bash
+
+echo "num"
+read num
+if[$num -lt 0 ]; then
+  echo "Negative numbers are not allowed."
+else
+  for (( i=1; i<=num; i++ ))
+  do
+    echo "$i"
+  done
+fi
